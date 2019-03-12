@@ -1,0 +1,17 @@
+name: CommonEffect
+main: net.devras.ceffect.Main
+author: Devras
+version: 1.0.0
+description: CommonEffect Plugin
+
+commands:
+  trail:
+    description: Arrow Trail
+    usage: /<command> particle
+    permission: ceffect.trail
+    permission-message: You don't have trail!
+
+permissions:
+  ceffect.trail:
+    default: true
+

@@ -1,0 +1,13 @@
+prefix: '&6&l[CEF]&r'
+
+enable:
+  doublejump: true
+  arrowtrail: true
+
+defaults:
+  doublejump:
+    playSound: ENTITY_FIREWORK_BLAST
+    playParticle: FIREWORKS_SPARK
+    cooldownTime: 10
+  arrowtrail:
+    defaultParticle: LAVA
